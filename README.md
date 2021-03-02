@@ -1,25 +1,44 @@
-### What is this?
-This `README.md` file is auto-created for all new projects.
+# Flask Web Application
 
-### Why am I here?
-This file opens automatically when you open a project. 
+A project developed to partial fulfillment the requirements of the course **Advanced Programming  [CS551P]** of the Master of Information Technology program at the University of Aberdeen.
 
-If you do not create Guides, this `README.md` will be what automatically opens for students. You can edit this file by clicking on the pencil icon in the upper right corner.
+## Getting Started
 
-### How do I get started with Codio?
-Use this [Onboarding Guide](https://codio.com/home/starter-packs/2ae8501b-e5f7-4b07-8e9f-adb155fc6d10) for an interactive tutorial through the main features of Codio. Click on the link, click **Use Pack** and then click **Create** to add it to your projects.
+<!-- These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. -->
 
-### How do I close this file?
-At the top of your workspace you will see tabs for each open file. Click the x on the right hand side of the tab that says **README.md**.
-![readMeTab](https://global.codio.com/platform/readme.resources/readMeTab.png)
+### Prerequisites
 
-### I expected to see or edit learning materials.
-Select **Tools->Guide->Play** to view the Guide for this project.
-![playGuide](https://global.codio.com/platform/readme.resources/playGuide.png)
+### Installing
 
-Click on the **Open Guides Editor** icon to edit the Guide.
-![guideEdit](https://global.codio.com/platform/readme.resources/guideEdit.png)
+<!-- A step by step series of examples that tell you how to get a development env running -->
 
-### How do I delete this file?
-To delete this `README.md` file, right-click (ctrl-click on a Mac) on the file name in the file list.
-![fileTree](https://global.codio.com/platform/readme.resources/fileTree.png)
+## Deployment
+
+<!-- Add additional notes about how to deploy this on a live system -->
+
+## Built With
+
+- [Python](https://www.python.org/)
+- [Flask](https://flask.pocoo.org)
+
+## Contributing
+
+Individual projects, no contribution requirements
+<!-- Please read [CONTRIBUTING.md](https://gist.github.com/ziyic/project_name/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us. -->
+
+## Authors
+
+* [ziyic](https://github.com/ziyic)
+
+<!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+-->
+
+## License
+
+ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+<!-- * Hat tip to anyone whose code was used
+* Inspiration
+* etc -->
