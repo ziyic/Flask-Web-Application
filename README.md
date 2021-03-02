@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Flask Web Application
 
 A project developed to partial fulfillment the requirements of the course **Advanced Programming  [CS551P]** of the Master of Information Technology program at the University of Aberdeen.
@@ -43,6 +42,3 @@ Individual projects, no contribution requirements
 <!-- * Hat tip to anyone whose code was used
 * Inspiration
 * etc -->
-=======
-# Flask-Web-Application
->>>>>>> 68ae6af4cb2a486820a3af81fb879a7864aec191
