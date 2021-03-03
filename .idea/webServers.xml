@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dba9aeb4-db24-4138-bc18-39aada30c18d" name="codio@forwarding.codio.co.uk:50296 key">
+        <fileTransfer rootFolder="/home/codio" accessType="SFTP" host="forwarding.codio.co.uk" port="50296" sshConfigId="6bd0a38a-fd1f-459b-ac16-cac6de30f1b4" sshConfig="codio@forwarding.codio.co.uk:50296 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions maxConnections="60000" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
