@@ -4,7 +4,47 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<body align="center">
+    <div style="padding: 15% 20%;">
+        <table align="center" border="1">
+            <tr>
+                <td colspan=>Name:</td>
+                <td colspan="2">{{ anime["anime_name"] }}</td>
+                <td colspan=>Genres:</td>
+                <td colspan="2">{{ genres }}</td>
+            </tr>
+            <tr>
+                <td>Producers:</td>
+                <td colspan="5">{{ producers }}</td>
+            </tr>
+            <tr>
+                <td colspan="6">Synopsis:</td>
+            </tr>
+            <tr>
+                <td colspan="6">{{ anime["anime_synopsis"] }}</td>
+            </tr>
+            <tr>
+                <td>Rating:</td>
+                <td>{{ anime["anime_rating"] }}</td>
+                <td>Scored By</td>
+                <td>{{ anime["anime_scoredBy"] }}</td>
+                <td>Popularity</td>
+                <td>{{ anime["anime_popularity"] }}</td>
 
+            </tr>
+            <tr>
+                <td>Members:</td>
+                <td>{{ anime["anime_members"] }}</td>
+                <td>Episodes:</td>
+                <td>{{ anime["anime_episodes"] }}</td>
+                <td>Aired From</td>
+                <td>{{ anime["anime_aired"] }}</td>
+            </tr>
+            <tr>
+                <td colspan="6"><a href=" {{ anime["anime_link"] }}">{{ anime["anime_link"] }}</a></td>
+            </tr>
+        </table>
+        {{ anime }},{{ genres }},{{ producers }},{{ source }}
+    </div>
 </body>
 </html>

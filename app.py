@@ -1,9 +1,9 @@
-from anime import r_anime
+from anime import anime
 from flask import Flask, render_template
 import data
 
 app = Flask(__name__)
-app.register_blueprint(r_anime, url_prefix='/anime')
+app.register_blueprint(anime)
 li_data = []
 
 
