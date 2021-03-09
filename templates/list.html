@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        ul li {padding: 50px;}
+    </style>
+</head>
+<body align="center">
+
+    <div style="padding: 10% 20%;">
+        <h1>Anime list</h1>
+        <table border="1" align="center">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Rating</th>
+            <th>Scored By</th>
+            <th>Popularity</th>
+            <th>Members</th>
+            <th>Episodes</th>
+        </tr>
+        {% for row in index_list %}
+        <tr>
+            <td><b>{{row["id"]}}</b></td>
+            <td><b><a href={{ url_for('.details', anime_id= row['id']) }}>{{row["anime_name"]}}</a></b></td>
+            <td>{{row["anime_rating"]}}</td>
+            <td>{{row["anime_scoredBy"]}}</td>
+            <td>{{row["anime_popularity"]}}</td>
+            <td>{{row["anime_members"]}}</td>
+            <td>{{row["anime_episodes"]}}</td>
+        </tr>
+        {% endfor %}
+        </table>
+    <nav aria-label="Page navigation" class="pull-right" style="align-items: center">
+        <ul style="display:flex; list-style: none; margin-outside: 50px; padding-left: 20px;padding-right: 20px">
+            {{ pages|safe }}
+        </ul>
+    </nav>
+    </div>
+
+</body>
+</html>
