@@ -1,0 +1,25 @@
+*   1330d7e : Merge branch 'main' of github.com:ziyic/Flask-Web-Application into main merge to main
+|\  
+| *   1c6d156 : Merge pull request #1 from ziyic/dev
+| |\  
+* | | dd6b0d0 : Update README.md
+* | | c6d1024 : Update README.md
+* | | 73182ff : Update README.md
+* | | 7039298 : [test]test finish
+* | | 2fedce6 : [test]ready for test
+* | | 862a2fa : [test]prepare for test
+| |/  
+|/|   
+* | 6aa5a43 : [dev]finish development stage
+* | fd68f5c : [feat]database created
+* | 1af0899 : [feat]prepared for postgreSQl
+* | e8307cd : [feat]init database structure
+|/  
+* 75a11ae : [docs]README.md:fix LICENSE links position
+* cfcdf2f : [refactor]init project structure
+* 46902e2 :  [docs]README.md:Resolving file conflicts
+*   d57c454 : [docs]LICENSE:Pull the generated LICENSE file from remote repository
+|\  
+| * 68ae6af : Initial commit
+* deb76ce : [docs]README.md:Applied README.md template
+* 62a441f : Initialising environment of the application
