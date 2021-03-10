@@ -43,8 +43,12 @@
             <tr>
                 <td colspan="6"><a href=" {{ anime["anime_link"] }}">{{ anime["anime_link"] }}</a></td>
             </tr>
+            <tr>
+                <td colspan="4"><a href={{ url_for('anime.index') }}>back</a></td>
+                <td colspan="4"><a href={{ url_for('index') }}>home</a></td>
+            </tr>
         </table>
-        {{ anime }},{{ genres }},{{ producers }},{{ source }}
+
     </div>
 </body>
 </html>
