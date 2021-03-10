@@ -23,7 +23,7 @@ A project developed to partial fulfillment the requirements of the course **Adva
 
 ## Test
 
-    use Behave for test, see test log in ```./reports```
+    use Behave for test, see test log in `./reports`
     
 ## Deployment
 
