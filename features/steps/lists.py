@@ -15,7 +15,7 @@ def step_impl(context):
 
     :type context: behave.runner.Context
     """
-    context.browser.get('http://localhost:5000/anime')
+    context.browser.get('http://127.0.0.1:5000/anime/')
 
 
 @when("I click on the link to the Anime details")

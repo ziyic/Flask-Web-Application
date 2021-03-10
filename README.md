@@ -21,6 +21,12 @@ A project developed to partial fulfillment the requirements of the course **Adva
 - [Python](https://www.python.org/)
 - [Flask](https://flask.pocoo.org)
 
+## Test
+
+    use Behave for test, see test log in ```./reports```
+    
+## Deployment
+
 ## Contributing
 
 Individual projects, no contribution requirements

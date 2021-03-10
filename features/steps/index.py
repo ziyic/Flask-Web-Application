@@ -36,4 +36,4 @@ def anime_list(context):
 
     :type context: behave.runner.Context
     """
-    assert context.browser.current_url == 'http://localhost:5000/anime'
+    assert context.browser.current_url == 'http://localhost:5000/anime/'

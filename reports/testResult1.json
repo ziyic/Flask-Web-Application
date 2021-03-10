@@ -1,0 +1,372 @@
+[
+{
+  "description": [
+    "\"\"\"",
+    "Confirmation that we can navigate the Anime list page correctly on this site, and from there to the Anime details page.",
+    "\"\"\""
+  ],
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/details.feature:6",
+      "name": "Back feature availability",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/details.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/details.py:12"
+          },
+          "name": "I navigate to the Anime details page",
+          "result": {
+            "duration": 0.3024313449859619,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/details.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/details.py:20"
+          },
+          "name": "I click on the Back link",
+          "result": {
+            "duration": 0.07919526100158691,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/details.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/details.py:28"
+          },
+          "name": "I should be navigated to Anime list page",
+          "result": {
+            "duration": 0.003770589828491211,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "features/details.feature:11",
+      "name": "Home feature availability",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/details.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/details.py:12"
+          },
+          "name": "I navigate to the Anime details page",
+          "result": {
+            "duration": 0.014644145965576172,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/details.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/details.py:36"
+          },
+          "name": "I click on the Home link",
+          "result": {
+            "duration": 0.05274319648742676,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/details.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/details.py:44"
+          },
+          "name": "I should be navigated to the index page",
+          "result": {
+            "duration": 0.002521038055419922,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/details.feature:1",
+  "name": "List page",
+  "status": "passed",
+  "tags": []
+},
+
+{
+  "description": [
+    "\"\"\"",
+    "Confirmation that we can navigate correctly through the starting pages on this site and navigate to other pages from it.",
+    "\"\"\""
+  ],
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/index.feature:6",
+      "name": "Successfully accessed the index page and the navigation link on the index page are working correctly.",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/index.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/index.py:12"
+          },
+          "name": "I navigate to the index page and I can see the navigation link",
+          "result": {
+            "duration": 0.03755950927734375,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/index.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/index.py:22"
+          },
+          "name": "I click on the navigation link",
+          "result": {
+            "duration": 0.06617093086242676,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/index.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/index.py:32"
+          },
+          "name": "I should be navigated to the anime list page",
+          "result": {
+            "duration": 0.0034186840057373047,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/index.feature:1",
+  "name": "Index to list page",
+  "status": "passed",
+  "tags": []
+},
+
+{
+  "description": [
+    "\"\"\"",
+    "Confirmation that we can navigate the Anime list page correctly on this site, and from there to the Anime details page.",
+    "\"\"\""
+  ],
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/lists.feature:6",
+      "name": "From list page navigate to Anime details",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/lists.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:11"
+          },
+          "name": "The Anime list page is successfully accessed and the list on the Anime list page are being used correctly",
+          "result": {
+            "duration": 0.030185699462890625,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/lists.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:21"
+          },
+          "name": "I click on the link to the Anime details",
+          "result": {
+            "duration": 0.04982328414916992,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/lists.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:31"
+          },
+          "name": "I should be navigated to the Anime details page",
+          "result": {
+            "duration": 0.002876758575439453,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"/home/codio/.pyenv/versions/3.9.0/lib/python3.9/site-packages/behave/model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"/home/codio/.pyenv/versions/3.9.0/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"features/steps/lists.py\", line 38, in step_impl",
+              "    assert context.browser.current_url == 'http://127.0.0.1:5000/anime/details/21'",
+              "AssertionError",
+              "",
+              "Captured stderr:",
+              "127.0.0.1 - - [10/Mar/2021 08:07:35] \"GET /anime/ HTTP/1.1\" 200 6736",
+              "127.0.0.1 - - [10/Mar/2021 08:07:36] \"GET /anime/details/21 HTTP/1.1\" 200 2930"
+            ],
+            "status": "failed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "features/lists.feature:11",
+      "name": "Pagination feature availability - Next page",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/lists.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:41"
+          },
+          "name": "I navigate to the Anime list page",
+          "result": {
+            "duration": 0.046697378158569336,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/lists.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:51"
+          },
+          "name": "I click on the link to the Next page",
+          "result": {
+            "duration": 0.06777763366699219,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/lists.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:61"
+          },
+          "name": "I should be navigated to the next Anime list page",
+          "result": {
+            "duration": 0.003183603286743164,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "features/lists.feature:16",
+      "name": "Pagination feature availability - Specifying a page number",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/lists.feature:17",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:41"
+          },
+          "name": "I navigate to the Anime list page",
+          "result": {
+            "duration": 0.026341915130615234,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/lists.feature:18",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:71"
+          },
+          "name": "I click on the link to a page number",
+          "result": {
+            "duration": 0.06868100166320801,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/lists.feature:19",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/lists.py:81"
+          },
+          "name": "I should be navigated to the page number of Anime list page",
+          "result": {
+            "duration": 0.0027208328247070312,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/lists.feature:1",
+  "name": "List page",
+  "status": "failed",
+  "tags": []
+}
+]
