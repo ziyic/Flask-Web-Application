@@ -29,6 +29,8 @@ A project developed to partial fulfillment the requirements of the course **Adva
     
 ## Deployment
 
+This project is also deployed on Heroku, you can access it via [this link](https://anime-gallery-web.herokuapp.com/)
+
 ## Contributing
 
 Individual projects, no contribution requirements
