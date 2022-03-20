@@ -1,6 +1,6 @@
 # Flask Web Application
 
-A project developed to partial fulfillment the requirements of the course **Advanced Programming  [CS551P]** of the Master of Information Technology program at the University of Aberdeen.
+A project developed to partial fulfillment the requirements of the course **Advanced Programming  [CS551P]** of the Master of Information Technology program at the University of Aberdeen. (For archive purposes only)
 
 ## Getting Started
 
